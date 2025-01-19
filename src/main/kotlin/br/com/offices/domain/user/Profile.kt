@@ -11,6 +11,5 @@ class Profile (
     val id: Long,
     val typeProfile: TypeProfile,
 
-
 ) {
 }

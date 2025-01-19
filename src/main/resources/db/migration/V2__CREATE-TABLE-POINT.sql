@@ -1,0 +1,13 @@
+CREATE TABLE points (
+  id UUID UNIQUE NOT NULL,
+  name VARCHAR(100) NOT NULL,
+  address_number VARCHAR(100) NOT NULL,
+  street VARCHAR(100) NOT NULL,
+  neighborhoo VARCHAR(100) NOT NULL,
+  city VARCHAR(100) NOT NULL,
+  state VARCHAR(100) NOT NULL,
+  country VARCHAR(100) NOT NULL,
+  postal_code VARCHAR(50) NOT NULL,
+  logintude VARCHAR(50) NOT NULL,
+  latitude VARCHAR(50) NOT NULL
+);
